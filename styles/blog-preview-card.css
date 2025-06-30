@@ -1,0 +1,42 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2rem;
+    min-height: 100vh;
+    padding: 16px;
+}
+
+.blog-preview-card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    max-width: 100%;
+    width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 26px;
+    box-shadow: 8px 8px 0 2px rgba(0, 0, 0, 1);
+}
+
+.blog-preview-card > img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    background-color: antiquewhite;
+}
+
+.blog-preview-card figure {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+.blog-preview-card__category {
+    background-color: rgb(246, 208, 80);
+    text-decoration: none;
+    color: unset;
+    align-self: flex-start;
+    padding: .5rem 1rem;
+    border-radius: 16px;
+}
