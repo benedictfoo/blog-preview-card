@@ -6,27 +6,30 @@
           name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Blog preview card</title>
-    <link href="/images/favicon-32x32.png" rel="icon" type="image/x-icon">
-    <link href="styles/main.css" rel="stylesheet">
+    <link href="./images/favicon-32x32.png" rel="icon" type="image/x-icon">
+    <link href="./styles/main.css" rel="stylesheet">
+    <link href="./styles/utilities.css" rel="stylesheet">
+    <link href="./styles/blog-preview-card.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-color">
 <main>
-    <h1>Blog preview card</h1>
+    <h1 class="text-center">Blog preview card</h1>
     <article aria-describedby="blog-preview-card__description" aria-labelledby="blog-preview-card__title"
-             class="blog-preview-card">
-        <img alt="" src="./images/illustration-article.svg">
-        <a aria-label="View posts in the Learning category" href="#">Learning</a>
+             class="blog-preview-card bg-color-white">
+        <img alt="" height="201" src="./images/illustration-article.svg" width="336">
+        <a aria-label="View posts in the Learning category" class="blog-preview-card__category bold"
+           href="#">Learning</a>
         <p>Published on
             <time datetime="2025-06-30">June 30, 2025</time>
         </p>
         <h2 id="blog-preview-card__title">HTML & CSS Foundations</h2>
-        <p id="blog-preview-card__description"><em>These languages are the backbone of every
-            website, defining structure, content. and
+        <p class="light" id="blog-preview-card__description"><em>These languages are the backbone of every
+            website, defining structure, content, and
             presentation.</em></p>
         <footer>
             <figure>
-                <img alt="Photo of Greg Hooper" src="/images/image-avatar.webp">
-                <figcaption>Greg Hooper</figcaption>
+                <img alt="Photo of Greg Hooper" height="65" src="./images/image-avatar.webp" width="64">
+                <figcaption class="bold">Greg Hooper</figcaption>
             </figure>
         </footer>
     </article>
